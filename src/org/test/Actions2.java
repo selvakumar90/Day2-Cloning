@@ -22,11 +22,6 @@ public class Actions2 {
 	
 	WebElement categ= driver.findElement(By.xpath("//i[@class='hm-icon nav-sprite']"));
 	categ.click();
-	
-	Actions act=new Actions(driver);
-
-	WebElement mouse1= driver.findElement(By.id("bank"));
-
 
 }
 }//i[@class='hm-icon nav-sprite']
